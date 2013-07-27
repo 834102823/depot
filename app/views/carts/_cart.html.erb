@@ -8,4 +8,5 @@
 	</tr>
 </table>
 
+<%= button_to "Checkout",{:controller=>"orders",:action=>"new"},{:method=>"get"}%>
 <%= button_to 'Empty cart',cart, method: :delete,confirm:'Are you sure?'%>
