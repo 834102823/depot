@@ -1,4 +1,4 @@
-source 'http://ruby.taobao.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 
@@ -36,3 +36,5 @@ gem 'jquery-rails','2.3.0'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'will_paginate','~> 3.0'
