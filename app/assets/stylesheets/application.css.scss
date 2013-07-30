@@ -11,6 +11,11 @@
  *= require_self
  *= require_tree .
  */
+.locale{
+  float:right;
+  magin:-0.25em 0.1em;
+}
+
 .depot_form{
   fieldset{
     background:#efe;
